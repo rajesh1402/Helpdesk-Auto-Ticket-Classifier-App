@@ -28,9 +28,9 @@ Current release supports
 
 ## Screenshots
 
-![Home Screen](./static/img/Home.png)
-![Home Screen](./static/img/Payment.png)
-![Home Screen](./static/img/ClassifyPayment.png)
+![Home Screen](https://github.com/rajesh1402/Helpdesk-Auto-Ticket-Classifier-App/tree/master/static/img/Home.png)
+![Payment Screen](https://github.com/rajesh1402/Helpdesk-Auto-Ticket-Classifier-App/tree/master/static/img/Payment.png)
+![Classify Ticket Screen](https://github.com/rajesh1402/Helpdesk-Auto-Ticket-Classifier-App/tree/master/static/img/ClassifyTicket.png)
 
 ## Thanks
 
