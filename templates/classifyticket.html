@@ -1,0 +1,24 @@
+{% extends 'layout.html' %} {% block body %}
+
+<h1>Classify Helpdesk Ticket</h1>
+<form method="POST" action="{{ url_for('classifyticket') }}">
+  <div class="form-group">
+    <textarea
+      class="form-control"
+      rows="3"
+      cols="100"
+      name="ticketdetail"
+    ></textarea>
+  </div>
+  <p><input type="submit" class="btn btn-primary" value="Classify Ticket" /></p>
+</form>
+<div class="form-group">
+  {% if result: %}
+  <h3>The Helpdesk Ticket auto assigned to team:</h3>
+  <div class="alert alert-info" role="alert">
+    {{ result }}
+  </div>
+
+  {% endif %}
+</div>
+{% endblock %}

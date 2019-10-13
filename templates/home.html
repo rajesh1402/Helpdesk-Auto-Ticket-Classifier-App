@@ -1,0 +1,32 @@
+{% extends 'layout.html' %} {% block body %}
+<div class="jumbotron text-center">
+  <h1>Helpdesk Auto Ticket Classifier v0.1</h1>
+  <p class="lead text-left">
+    This application will in future releases integrate with leading helpdesk
+    systems and auto-classify incoming tickets
+  </p>
+  <p class="text-left">
+    In the Current release, you can Pay using Stripe and input Ticket details
+    and get it classified
+  </p>
+  <ul class="list-group text-left text-primary">
+    <li class="list-group-item">STEPS TO FOLLOW</li>
+    <li class="list-group-item">1: Register</li>
+    <li class="list-group-item">2: Login</li>
+    <li class="list-group-item">3: Click on Payment</li>
+    <li class="list-group-item">4: Pay with Card using Stripe</li>
+    <li class="list-group-item">
+      Stripe payment form does not open sometimes..clicking the button again
+      will do the trick. Use a valid email, Test card 4242 4242 4242 4242,
+      future expiry date, 3 digit CVC
+    </li>
+    <li class="list-group-item">
+      4: Enter Ticket Details and click Classify Ticket
+    </li>
+  </ul>
+  c {% if session.logged_in == NULL %}
+  <a href="/register" class="btn btn-primary btn-lg">Register</a>
+  <a href="/login" class="btn btn-success btn-lg">Login</a>
+  {% endif %}
+</div>
+{% endblock %}

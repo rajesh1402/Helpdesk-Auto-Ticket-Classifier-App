@@ -1,0 +1,19 @@
+{% extends 'layout.html' %} {% block body %}
+<h2>Payment using Stripe</h2>
+<div class="jumbotron">
+  <h1 class="display-3">Helpdesk Auto Ticket Classifier</h1>
+  <p class="lead">Purchase monthly subscription for only $19.99</p>
+  <form action="{{ url_for('serve') }}" method="POST">
+    <script
+      src="https://checkout.stripe.com/checkout.js"
+      class="stripe-button"
+      data-key="{{ pub_key }}"
+      data-amount="1999"
+      data-name="Demo Site"
+      data-description="Widget"
+      data-image="https://stripe.com/img/documentation/checkout/marketplace.png"
+      data-locale="auto"
+    ></script>
+  </form>
+</div>
+{% endblock %}
