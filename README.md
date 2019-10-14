@@ -1,9 +1,9 @@
 # Helpdesk Auto Ticket Classifier App
 
 This is V0.1 of the App.
-Future releases will integrate with leading helpdesk systems and automatically classify all incoming tickets.
-Current release supports
+Currently hosted on local machine. Plan to host it on Heroku or alternate provider soon. 
 
+Current release supports
 - Flask app using MySQL DB as the backend
 - Integration with Stripe to enable Card payments
 - Inference (Ticket Classification) using saved pickle model
@@ -17,7 +17,9 @@ Current release supports
   5: 'ANTIVIRUS'
   }
 
-## Examples
+Future releases will integrate with leading helpdesk systems and automatically classify all incoming tickets.
+
+## Examples of Tickets 
 
 - Need to install Microsoft Office
 - My monitor is showing lines and flickering
@@ -28,9 +30,20 @@ Current release supports
 
 ## Screenshots
 
-![Home Screen](https://github.com/rajesh1402/Helpdesk-Auto-Ticket-Classifier-App/tree/master/static/img/Home.png)
-![Payment Screen](https://github.com/rajesh1402/Helpdesk-Auto-Ticket-Classifier-App/tree/master/static/img/Payment.png)
-![Classify Ticket Screen](https://github.com/rajesh1402/Helpdesk-Auto-Ticket-Classifier-App/tree/master/static/img/ClassifyTicket.png)
+<img src="static/img/Home.jpg"/>
+
+<img src="static/img/Register.jpg"/>
+
+<img src="static/img/Login.jpg"/>
+
+<img src="static/img/Dashboard.jpg"/>
+
+<img src="static/img/Payment.jpg"/>
+
+### Classification Samples
+<img src="static/img/ClassifyTicket1.jpg"/>
+<img src="static/img/ClassifyTicket2.jpg"/>
+<img src="static/img/ClassifyTicket3.jpg"/>
 
 ## Thanks
 
